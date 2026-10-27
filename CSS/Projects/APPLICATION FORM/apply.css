@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(188, 9, 39);
+    color: whitesmoke;
+}
+
+.container:not(.main) {
+    background-color: #ffffff1a;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px black;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+fieldset legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+label:not(.applied-position) {
+    display: block;
+    margin: 10px 0;
+}
+
+input:not(.applied-position-radio-btn),
+textarea {
+    background-color: #ffffff1a;
+    width: 95%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgb(231, 225, 41);
+}
+
+input,
+input::placeholder,
+textarea {
+  color: whitesmoke;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+.applied-position-radio-btn{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    vertical-align: bottom;
+}
+
+.applied-position-radio-btn::before {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translate(3px, 3px) scale(0);
+    transition: all 0.3s ease-in;
+}
+
+.applied-position-radio-btn:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    background-color: rgb(231, 225, 41);
+}
+
+.submit-btn {
+    cursor: pointer;
+    background-color: rgb(226, 34, 101);
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+}
+
+.submit-btn:hover{
+    background-color: rgb(188, 9, 39);
+    box-shadow: 0 5px 15px black;
+}
+
+.radio-group input[type="radio"]:checked {
+    border-color: rgb(231, 225, 41);
+    background-color: rgb(188, 9, 39);
+    box-shadow: 0 0 6px rgb(231, 225, 41);
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: rgb(231, 225, 41);
+}
+
+input:first-of-type {
+    border: 2px solid rgb(231, 225, 41);
+    background-color: #ffffff2a;
+}
+
+button:hover {
+    background-color: rgb(150, 5, 25);
+    box-shadow: 0 5px 15px black;
+}

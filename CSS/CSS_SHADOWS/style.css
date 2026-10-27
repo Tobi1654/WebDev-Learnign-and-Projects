@@ -1,0 +1,22 @@
+/* text-shadow gives shadow to texts */
+/* first value is horizontal shadow */
+/* second value is vertical shadow */
+/* third value is blur radius */
+/* fourth value is color of shadow */
+/* you can have more than one shadow by separating them with commas */
+h1{
+    text-shadow:3px 3px 5px hsl(300, 67%, 26%);
+}
+
+/* box-shadow gives shadow to boxes or divs */
+/* first value is horizontal shadow */
+/* second value is vertical shadow */
+/* third value is blur radius */
+/* fourth value is color of shadow */
+/* background-color is the color of the box or div */
+#shadowBox1{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(39, 84%, 80%);
+    box-shadow: 10px 7px 5px hsl(200, 67%, 26%);
+}

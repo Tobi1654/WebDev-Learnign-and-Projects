@@ -1,0 +1,38 @@
+/*CSS STYLESHEET: used to style the html elements*/
+/*SELECTORS: used to select html elements to style them*/
+/*ELEMENT SELECTOR: selects all elements of a specific type*/
+/*EXTERNAL CSS: CSS code is in a separate file linked to the HTML file*/
+/*CSS CAN LINK TO MORE THAN ONE HTML FILE*/
+/*cssindex.html and cssindex2.html are both linked to stylesheet.css*/
+body{
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+}
+
+#p1{
+    color: green;
+}
+/*p1 is the id of the first paragraph element*/
+#p2{
+    color: yellow;
+}
+/*p2 is the id of the second paragraph element*/
+#p3{
+    color: orange;
+}
+/*p3 is the id of the third paragraph element*/
+#p4{
+    color: red;
+}
+/*p4 is the id of the fourth paragraph element*/
+.odd{
+    color: lightgray;
+}
+/*odd is the class selector for odd numbered paragraph elements*/
+.even{
+    color: gray;
+}
+/*even is the class selector for even numbered paragraph elements*/

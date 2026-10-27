@@ -1,0 +1,23 @@
+/*display: flow root ensures elements stay within th body*/
+/* in this case the elements stay within the border of the body*/
+body{
+    border: 3px solid ;
+    margin: 20px;
+    display: flow-root;
+}
+
+/*float = allows other elements to be taken out and flow around it*/
+/*float values: left, right, none, inherit*/
+#imgTest{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#imgCloth{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

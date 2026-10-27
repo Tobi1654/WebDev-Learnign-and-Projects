@@ -1,0 +1,23 @@
+/*NAMED COLORS: using color names to set colors in css*/
+body {
+    background-color: slategrey;
+}
+
+#p1 {
+    color: coral;
+}
+
+/*RGB COLORS: using rgb values to set colors in css*/
+#p2 {
+    color: rgb(75, 105, 54);
+}
+
+/*HEX COLORS: using hex values to set colors in css*/
+#p3 {
+    color: #5938ff;
+}
+
+/*HSL COLORS: using hsl values to set colors in css*/
+#p4 {
+    color: hsl(310, 91%, 50%);
+}

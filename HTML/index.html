@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage</title>
+
+    <!-- FAVICON: icon that appears on the tab of the webpage -->
+    <link rel="icon" href="IMAGES/favicon.jpeg" type="image/jpeg">
+</head>
+
+<body>
+    <!--HEADERS-->
+    <h1>This is an h1 heading</h1>
+    <h2>This is an h2 heading</h2>
+    <h3>This sia an h3 heading</h3>
+    <h4>This is an h4 heading</h4>
+    <h5>This is an h5 heading</h5>
+    <h6>This is an h6 heading</h6>
+
+    <br> <!--LINE BREAK: LEAVES A LINE-->
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--PARAGRAPHS-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Labore perferendis ducimus eos aspernatur consequuntur, alias nobis aliquam aperiam.
+        Labore delectus cum amet laudantium, expedita ducimus nemo sunt itaque accusantium quia.
+    </p>
+
+    <hr> <!--HORIZONTAL RULE: inputs a line-->
+
+    <!--PREFORMATTED TEXT: looks alike to what is in the code-->
+    <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloribus autem eum officia error iure consequuntur aliquam accusantium 
+            corrupti? Distinctio placeat veniam harum veritatis ut repudiandae dolores architecto 
+            possimus? Qui, harum?
+        </pre>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--HYPERLINK: LINKS TO SOMETHING-->
+    <!--TARGET: opens link in new tab-->
+    <!--TITLE: show what link you are clicking-->
+    <a href="https://genius.com/Ariana-grande-7-rings-lyrics" target="_blank" title="Genius 7rings">
+        CLICK ME
+    </a>
+
+    <br>
+
+    <!--links to  the son lyrics in our folder-->
+    <a href="tasklyrics.html" target="_blank">
+        SONG LYRICS
+    </a>
+
+    <br>
+
+    <!--starts the process of emailing someone-->
+    <a href="mailto:remark@google.com">
+        email me
+    </a>
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+    <h1>A cut dog</h1>
+    <a href="https://en.wikipedia.org/wiki/Dog">
+        <!--TURNS TEH IMAGE INTO A Url-->
+
+        <!--IMAGE: displays an image/gif-->
+        <img src="IMAGES/dog.jpg" alt="A cute dog" height="200"> <!--height and width can be used to resize image-->
+    </a>
+
+    <img src="IMAGES/cat.gif" alt="cat gif" height="300">
+    <!--IF IMAGE ARE IN DIFF FOLDER PRE-SEED WITH 'name_of_folder/file_name'-->
+
+    <h3>Woof Woof</h3>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!--AUDIO: plays an audio file-->
+    <!--CONTROLS: shows controls to play music-->
+    <!--AUTOPLAY: music starts automatically, annoying-->
+    <!--MUTED: music is muted at start-->
+    <!--LOOP: music restarts when finished-->
+    <p>7 Rings</p>
+    <audio controls autoplay muted loop>
+        <source src="MUSIC/7RINGS_MUSIC.mp4" type="audio/mp4">
+        <!--alt-->
+        <source src="MUSIC/7RINGS_MUSIC.mp3" type="audio/mp3">
+        <!--alt-->
+        <source src="MUSIC/7RINGS_MUSIC.wav" type="audio/wav">
+        <!--IF BROWSER CANT PLAY THE AUDIO: you can input different types-->
+    </audio>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--VIDEO: plays a video file-->
+    <!--CONTROLS: shows controls to play video-->
+    <!--AUTOPLAY: video starts automatically, annoying-->
+    <!--MUTED: video is muted at start-->
+    <!--LOOP: video restarts when finished-->
+    <p>7 Rings Music Video</p>
+    <a href="https://en.wikipedia.org/wiki/7_Rings" target="_blank">
+        <video width="500px" controls autoplay muted loop>
+            <source src="VIDEO/7RINGS_VIDEO.mp4" type="video/mp4">
+            <!--alt-->
+            <source src="VIDEO/7RINGS_VIDEO.webm" type="video/webm">
+        </video>
+    </a>
+
+    <br>
+    <br>
+    <br>
+
+    <!--<span> inline container styling for text-->
+    <!--<div> block container styling for text-->
+    <h1><span style="background-color: blueviolet;">This is a span title</span></h1>
+    <h1><div style="background-color: blue;">This is a div title</div></h1>
+
+    <p><span style="background-color: blueviolet;">This is a span sentence</span></p>
+    <p><div style="background-color: blue;">This is a span sentence</div></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: blueviolet;">Expedita odit quod exercitationem nisi, dolore debitis nihil sapiente delectus tenetur similique fugit doloribus fugiat culpa consectetur, corporis, qui illo magni voluptates?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: blue;"> id totam similique ipsam tenetur ad. Recusandae quibusdam odit vitae, reprehenderit adipisci ex quis obcaecati optio illum amet molestias deleniti quasi!</div></p>
+
+    <br>
+    <br>
+    <br>
+
+    <!--Unordered List, Bullet List-->
+    <h4>Groceries</h4>
+    <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Milkshake</li>
+        <ul>
+            <li>Chocolate</li>
+            <li>Vanilla</li>
+            <li>Strawberry</li>
+        </ul> <!--nested list, basically sub-lists-->
+    </ul>    
+
+    <!--Ordered List, Number List-->
+    <h4>Morning Routine</h4>
+    <ol>
+        <li>Eat breakfast</li>
+        <li>Brush teeth</li>
+        <li>Take a shower</li>
+    </ol>
+
+    <!--Description List-->
+    <!--DT: description term-->
+    <!--DD: description details-->
+    <h4>Mythical Creatures</h4>
+    <dl style="background-color: azure; border: 2px solid;">
+        <!--BORDER: Gives text a border-->
+        <!--SOLID: Means the border would be solid-->
+        <dt>Dragon:</dt> 
+        <dd>A mythical monster resembling a giant reptile, sometimes shown as having wings.</dd>
+        <dt>Phoenix:</dt>
+        <dd>A mythical bird that is consumed by fire and rises from its ashes.</dd>
+        <dt>Unicorn:</dt>
+        <dd>A mythical horse-like animal with a single horn on its forehead.</dd>
+    </dl>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!--TABLE: used to display data in rows and columns-->
+    <!--TR: table row-->
+    <!--TH: table header-->
+    <!--TD: table data/cell-->
+    <h3>Store Hours</h3>
+    <table border="3px" style="background-color: blanchedalmond;">
+        <!--BORDER: gives table a border-->
+        <!--PX: pixel unit-->
+        <tr align="center" style="background-color: aqua;">
+            <!--ALIGN: The days are aligned-->
+            <!--Width: how wide each rows are-->
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+            <th width="100">Sunday</th>
+        </tr>
+        <tr align="center" style="background-color: aquamarine;">
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>10am-2pm</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+
+
+    <!--BUTTON-->
+    <a href="tasklyrics.html" target="_blank">
+    <button style="font-size: 30px; background-color: pink; color: aqua; border-radius: 15px;">7 Rings</button>
+    <!--FONT-SIZE: size of the text-->
+    <!--COLOR: color of the text-->
+    <!--BORDER-RADIUS: rounds the corners of the button-->
+    </a>
+
+    <br>
+    <br>
+    <br>
+
+
+</body>
+
+</html>

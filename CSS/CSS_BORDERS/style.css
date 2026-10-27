@@ -1,0 +1,29 @@
+/*border-style makes a border appear*/
+/*border-width sets the thickness of the border*/
+/*border-color sets the color of the border*/
+/*border-radius makes the corners rounded*/
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: hsl(109, 100%, 50%);
+    border-radius: 17px;
+}
+
+/*shorthand border property*/
+/*border: [border-width] [border-style] [border-color];*/
+/*This sets all three border properties in one line*/
+h2{
+    border: 3px dotted hsl(109, 100%, 50%);
+    border-radius: 10px;
+}
+
+/*individual border sides*/
+/*border-top, border-right, border-bottom, border-left*/
+/*You can set different styles, widths, and colors for each side of the border*/
+p{
+    border-bottom: 3px dashed hsl(222, 100%, 50%);
+    border-top: 3px dashed hsl(312, 93%, 42%);
+    border-left: 3px solid hsl(42, 100%, 50%);
+    border-right: 3px solid hsl(162, 100%, 50%);
+    border-radius: px;
+}

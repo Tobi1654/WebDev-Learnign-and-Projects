@@ -1,0 +1,28 @@
+/* margin away from all sides */
+/* you can apply margin on any side individually using:
+   margin-top, margin-right, margin-bottom, margin-left */
+body{
+    margin: 50px;
+}
+
+/* .box is a class selector */
+/* it styles all elements with class="box" */
+.box{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+}
+
+/* auto: move as far as possible in that direction */
+/*in this case, box1 will move as far right as possible */
+/* box1 has an automatic left margin */
+#box1{
+    background-color: hsl(179, 79%, 72%);
+    margin-left: auto;
+/* margin auto sets the element to the center of its container */
+}
+#box2{
+    background-color: hsl(340, 56%, 61%);
+    margin: auto;
+}

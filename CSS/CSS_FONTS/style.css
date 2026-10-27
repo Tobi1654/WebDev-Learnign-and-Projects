@@ -1,0 +1,30 @@
+/* @font-face rule is used to define a custom font */
+/* You can then use the font-family property to apply the font to an element */
+@font-face {
+    src: url(GoogleFonts/PlaywriteUSTradGuides-Regular.ttf);
+    font-family: Playwrite;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(GoogleFonts/Roboto-Regular.ttf);
+}
+
+
+/* font-family property is used to set the font of an element */
+h1{
+    font-family: Playwrite , verdana;
+}
+
+/* font-size property is used to set the size of the font */
+/* You can use different units like px, em, rem, %, vw, vh etc */
+
+/* font-weight property is used to set the weight (thickness) of the font
+
+/* font-style property is used to set the style of the font */
+p{
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: oblique;
+}
